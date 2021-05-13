@@ -1,0 +1,12 @@
+@mixin space-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 35%;
+}
+
+@mixin align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
